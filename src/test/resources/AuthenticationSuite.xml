@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Authentication Suite">
+
+    <parameter name="OS" value="macOS"/> <!--Choose the desired Operating system: Windows, macOS, or Linux -->
+
+    <test name="Authentication Test" verbose="10">
+
+        <classes>
+
+            <!--  <class name="preconditions"/>-->
+            <class name="authentication.AuthenticationSuite"/>
+
+        </classes>
+
+    </test>
+
+
+</suite>
