@@ -18,11 +18,11 @@ public class GlobalVariables {
 
     public static String FRONTEND_SUITE_REPORT_PATH = null;
 
-    public static String FRONTEND_SUITE_JUNITREPORT_PATH = "\\target\\surefire-reports\\junitreports\\TEST-jsonserversuite.JsonServerSuite.xml";
+    public static String FRONTEND_SUITE_JUNITREPORT_PATH = "\\target\\surefire-reports\\junitreports\\TEST-frontendsuite.FrontEndSuite.xml";
 
     public static String AUTHENTICATION_SUITE_REPORT_PATH = null;
 
-    public static String AUTHENTICATION_SUITE_JUNITREPORT_PATH = "\\target\\surefire-reports\\junitreports\\TEST-travelinsurancesuite.TravelInsuranceSuite.xml";
+    public static String AUTHENTICATION_SUITE_JUNITREPORT_PATH = "\\target\\surefire-reports\\junitreports\\TEST-authentication.AuthenticationSuite.xml";
 
 
 }

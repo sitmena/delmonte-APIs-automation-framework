@@ -211,7 +211,7 @@
 
 
                             <!-- RESTAssured suites-->
-<!--                            <suiteXmlFile>src/test/resources/FrontEndSuite.xml</suiteXmlFile>-->
+                            <suiteXmlFile>src/test/resources/FrontEndSuite.xml</suiteXmlFile>
                             <suiteXmlFile>src/test/resources/AuthenticationSuite.xml</suiteXmlFile>
 
 
