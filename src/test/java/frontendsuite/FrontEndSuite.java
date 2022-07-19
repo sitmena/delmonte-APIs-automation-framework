@@ -98,6 +98,8 @@ public class FrontEndSuite {
 
     TopOrchardsByQuality topOrchardsByQuality = new TopOrchardsByQuality();
 
+    DatabricksSqlEndpoint databricksSqlEndpoint = new DatabricksSqlEndpoint();
+
     /////////////////// Test cases list starts here///////////////////////////////////
 
     @Test(priority= 0)
@@ -117,6 +119,12 @@ public class FrontEndSuite {
         test = extent.createTest("Top Orchards By Quality");
         topOrchardsByQuality.topOrchardsByQuality();
     }
+
+//    @Test(priority = 3)
+//    public void databricks_sql_endpoint() throws InterruptedException, IOException {
+//        test = extent.createTest("Databricks Sql Endpoint");
+//        databricksSqlEndpoint.databricksSqlEndpoint();
+//    }
 
 
     // After test cases running is done
@@ -168,9 +176,5 @@ public class FrontEndSuite {
         customKeywords.replacingAllSuitesNamesValue("frontEnd", ReportName_with_path);
 
     }
-
-
-
-
-
+    
 }
